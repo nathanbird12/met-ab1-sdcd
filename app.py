@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 app = Flask(__name__)
 app.secret_key = "changeme-secret-key"
 
-APP_TITLE = "PCLand"
+APP_TITLE = "ChangeMe"
 
 # Fake product data
 products = [
